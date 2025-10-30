@@ -1,0 +1,10 @@
+[project]
+name = "smart-file-organizer"
+version = "0.1.0"
+description = "Natural-language file operations with a safe dry-run."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+sfo = "organizer:main"
